@@ -39,7 +39,7 @@ The color and price
 This entity shows the customer making the purchase,  
 name, email and address of customer.
 
-### Sale. 
+### Sale 
 This entity represents the sale made by the store. 
 Contains the customers number, their address and total sale
 
