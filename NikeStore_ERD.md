@@ -59,9 +59,10 @@ There can be many products in a sale
 There can be many of the same product in Inventory
 
 ## Significance of all Entities  
-Each relationship plays a vital part in running the Nike Store.  
+Each relationship plays a vital part in running the Nike Store.
+
 Whether it is managing stock, customer purchase history or sales records,  
-they all rely on each other to tell a broader story of store’s profits,  
+they all rely on each other to tell a broader story of stores profits,  
 insights and future planning.
 
 
