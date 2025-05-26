@@ -40,12 +40,12 @@ This entity shows the customer making the purchase,
 name, email and address of customer.
 
 ### Sale 
-This entity represents the sale made by the store. 
+This entity represents the sale made by the store.  
 Contains the customers number, their address and total sale
 
 ### Inventory
 This entity contains the name of the products inventory ID.  
-Contains amount in inventory
+Contains the amount of product in inventory.
 
 ## Relationship  
 
