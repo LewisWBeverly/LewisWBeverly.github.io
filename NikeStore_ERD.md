@@ -1,5 +1,4 @@
 ```mermaid
-<<<<<<< HEAD
 erDiagram
   PRODUCT {
     int product_id PK
@@ -27,11 +26,6 @@ erDiagram
   CUSTOMER ||--o{ SALE : places
   PRODUCT ||--o{ SALE : includes
   PRODUCT ||--o{ INVENTORY : stocked_in
-=======
- graph TD;
-A-->B;
-A-->C;
->>>>>>> 43621f1f3c65120ef23264febed56e059741cbb6
 ```
 
 ## Entity Descriptions
