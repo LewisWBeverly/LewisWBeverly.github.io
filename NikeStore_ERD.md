@@ -49,6 +49,19 @@ Contains amount in inventory
 
 ## Relationship  
 
-### 
+### Customer to Sale  
+Customer can have multiple sales orders
+
+### Product to Sales
+There can be many products in a sale
+
+### Product to Inventory
+There can be many of the same product in Inventory
+
+## Significance of all Entities  
+Each relationship plays a vital part in running the Nike Store.  
+Whether it is managing stock, customer purchase history or sales records,  
+they all rely on each other to tell a broader story of store’s profits,  
+insights and future planning.
 
 
