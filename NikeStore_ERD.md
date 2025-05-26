@@ -31,20 +31,20 @@ erDiagram
 ## Entity Descriptions
 
 ### Product  
-This entity shows what the item is  
-The Style of product  
-The Color and Price
+This entity shows what the item is:  
+The style of product  
+The color and price
 
 ### Customer  
-This entity shows the customer making the purchase  
-Name, email and address of customer
+This entity shows the customer making the purchase,  
+name, email and address of customer.
 
 ### Sale. 
 This entity represents the sale made by the store. 
 Contains the customers number, their address and total sale
 
 ### Inventory
-This entity contains the name of the products inventory ID  
+This entity contains the name of the products inventory ID.  
 Contains amount in inventory
 
 ## Relationship  
