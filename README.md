@@ -14,6 +14,6 @@ I absolutely love being a band with my closest friends.
 Also, I collect vintage sci-fi books.
 
 ## Websites I Recommend
- -[Pollute. Ð No Peace for the Peaceful]( https://www.youtube.com/watch?v=n8hZ3gQVjOA) Ð New E.P. out by Pollute.  
- -[History of Science Fiction in Literature]( https://www.youtube.com/watch?v=PEVZQ8MKtCw&t=3787s) Ð A small introduction in a world a frequently vist.
+ -[Pollute.ÐNo Peace for the Peaceful]( https://www.youtube.com/watch?v=n8hZ3gQVjOA)ÐNew E.P. out by Pollute.  
+ -[History of Science Fiction in Literature]( https://www.youtube.com/watch?v=PEVZQ8MKtCw&t=3787s)ÐA small introduction in the worlds I frequently visit.
 
