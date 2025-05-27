@@ -15,5 +15,5 @@ Also, I collect vintage sci-fi books.
 
 ## Websites I Recommend
  -[Pollute. **No Peace for the Peaceful**]( https://www.youtube.com/watch?v=n8hZ3gQVjOA) New E.P. out by Pollute.  
- -[History of Science Fiction in Literature]( https://www.youtube.com/watch?v=PEVZQ8MKtCw&t=3787s) A small introduction in the worlds I frequently visit.
+ -[History of Science Fiction in Literature]( https://www.youtube.com/watch?v=PEVZQ8MKtCw&t) A small introduction into the worlds I frequently visit.
 
