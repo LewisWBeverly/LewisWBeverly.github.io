@@ -39,6 +39,37 @@
     </tbody>
   </table>
 
+  <script>
+    function populateGradebook(data) {
+      // This function will take the fetched grade data and populate the table
+      console.log("Populating gradebook with data:", data);
+      let tableElm = document.getElementById("gradebook").querySelector("tbody"); // Get tbody element
+
+      data.forEach(function(assignment){ // For each row of data we're passed in
+        let row = document.createElement("tr"); // create a table row element
+        let columns = {}; // Use an object to store columns
+
+        columns.name = document.createElement('td'); // The first column's table data will be the name
+        columns.name.appendChild(
+          document.createTextNode(assignment.last_name + ", " + assignment.first_name)
+        );
+
+        columns.grade = document.createElement('td'); // second column will be the grade
+        columns.grade.appendChild(
+          document.createTextNode(assignment.total_grade)
+        );
+
+        // Add the table data columns to the table row
+        row.appendChild(columns.name);
+        row.appendChild(columns.grade);
+
+        // Add the row to the table itself to make the data visible
+        tableElm.appendChild(row);
+      });
+    }
+  </script>
+
   <script src="gradebook.js"></script>
 </body>
 </html>
+
