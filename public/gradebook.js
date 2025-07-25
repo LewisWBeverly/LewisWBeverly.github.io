@@ -34,7 +34,7 @@ function populateGradebook(data) {
     // This function will take the fetched grade data and populate the table
     console.log("Populate gradebook with data:", data);
 
-    let tableBody = document.querySelector("#gradeTable tbody");
+    let tableBody = document.querySelector("#gradebook tbody");
 
     // Clear existing rows (if any)
     tableBody.innerHTML = "";
