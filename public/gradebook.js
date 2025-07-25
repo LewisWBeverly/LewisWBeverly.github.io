@@ -42,21 +42,25 @@ function populateGradebook(data) {
     data.forEach(function(student) {
         let row = document.createElement("tr");
 
-        let idCell = document.createElement("td");
-        idCell.textContent = student.student_id;
-        row.appendChild(idCell);
+        // Combine first and last name in ONE cell for the Student Name column
+        let nameCell = document.createElement("td");
+        nameCell.textContent = `${student.first_name} ${student.last_name}`;
+        row.appendChild(nameCell);
 
-        let firstNameCell = document.createElement("td");
-        firstNameCell.textContent = student.first_name;
-        row.appendChild(firstNameCell);
+        // Assignment 1 grade in second column
+        let assignment1Cell = document.createElement("td");
+        assignment1Cell.textContent = student.total_grade === null ? "N/A" : parseFloat(student.total_grade).toFixed(2);
+        row.appendChild(assignment1Cell);
 
-        let lastNameCell = document.createElement("td");
-        lastNameCell.textContent = student.last_name;
-        row.appendChild(lastNameCell);
+        // Assignment 2 placeholder
+        let assignment2Cell = document.createElement("td");
+        assignment2Cell.textContent = "-";
+        row.appendChild(assignment2Cell);
 
-        let gradeCell = document.createElement("td");
-        gradeCell.textContent = student.total_grade === null ? "N/A" : parseFloat(student.total_grade).toFixed(2);
-        row.appendChild(gradeCell);
+        // Assignment 3 placeholder
+        let assignment3Cell = document.createElement("td");
+        assignment3Cell.textContent = "-";
+        row.appendChild(assignment3Cell);
 
         tableBody.appendChild(row);
     });
